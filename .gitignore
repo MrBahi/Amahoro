@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+
+# Block Python temporary execution folders
+__pycache__/
+*.pyc
+
+# Block heavy machine learning model exports
+*.joblib
